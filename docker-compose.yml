@@ -10,10 +10,10 @@ services:
       RABBITMQ_DEFAULT_PASS: rabbitmq
     volumes:
       - algasensors-rabbitmq:/var/lib/rabbitmq/
-  algasensors-device-manager:
-    build: ./microservices/device-management/
-    ports:
-      - "8080:8080"
+#  algasensors-device-manager:
+#    build: ./microservices/device-management/
+#    ports:
+#      - "8080:8080"
 
 #  prometheus:
 #    image: prom/prometheus
